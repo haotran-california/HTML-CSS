@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    background-color: red;
+    margin: 0
+}
+
+.Banner {
+    margin-top: auto;
+}
+
+.Info-Section {
+    margin-bottom: auto;
+}

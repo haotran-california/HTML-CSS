@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Page */
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    background-color: #fff;
+    max-width: 100rem;
+}
+
+/* Header */
+.header {
+    
+    border: red 1px solid;
+}
+
+.main-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.main-nav li {
+    margin: 0px 5px;
+}
+
+.second-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.second-nav li {
+    margin: 0px 5px; 
+}
+
+
+
+/* Landing Display */
+.main-display {
+    height: 55rem;
+}
+
+.main-text {
+    position: relative; 
+    top: 45%;
+    height: 8rem;
+    color: #ff764d; 
+    text-align: center;
+    font-size: 6em; 
+    font-weight: bold;
+}
+
+
+.bg-landing-image {
+    height: 100%; 
+    width: 80%; 
+    background-image: url("/images/header-photo.jpg");
+    background-position: center center;
+    background-size: cover;
+    margin: 0% 10%; 
+}
+
+
+/* Main Content  */
+.main-content {
+    margin: 4em 0em; 
+}
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+h3{
+    font-size: medium;
+    margin: 1em 7.75em;
+    line-height: 2em;
+}
+
+p {
+    font-size: small;
+    margin: 1em 9.75em;
+    line-height: 2em;
+}
+
+/* Image 1 */ 
+
+.display-container-1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 475px; 
+    margin: 5em 0em;
+}
+
+.display-container-1 .left{
+    height: 75%; 
+    width: 42%;
+    background-image: url("./images/photo-1.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    margin-right: -75px;
+}
+
+.display-container-1 .right{
+    background-color: #fbffa7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    height: 100%;
+}
+
+.display-container-1 img {
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+/* Image 2 */ 
+
+.display-container-2 {
+    border: green 1px solid; 
+    height: 18rem; 
+    margin: 5em 8em;
+}
+
+.display-container-2 img{
+    height: 100%; 
+    width: 100%; 
+    background-size: cover;
+}
+
+
+/* Image 3 */
+
+.display-continer-3 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 38em;
+    margin: 4em 0em;
+}
+
+.display-continer-3 .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #b6ffc0;
+    height: 100%; 
+    width: 60%; 
+}
+
+.display-continer-3 .left img {
+    width: 60%; 
+    height: auto;
+    margin: 2em 0em;
+    margin-right: 4em;    
+}
+
+.display-continer-3 .right {
+    height: 60%; 
+    width: 40%; 
+    margin-left: -75px;
+}
+
+.display-continer-3 .right img{
+    height: 100%; 
+    width: auto
+}
+
+/* Image 4 */
+.display-container-4 {
+    margin: 4em 4em;
+    height: 24em;
+}
+
+.display-container-4 img{
+    width: 100%; 
+    height: 100%; 
+}
+
+/* Image 5 */
+.display-container-5 {
+    display: flex; 
+    flex-direction: column;
+    height: 42em;
+    margin: 4em 4em; 
+}
+
+.display-container-5 img{
+    width: 100%; 
+    height: 63%;  
+}
+
+.display-container-5 .content{
+    background-color: #b1c5ff;
+    width: 100%; 
+    height: 100%; 
+    
+}
+
+.display-container-5 h3 {
+    margin: 2em 4em;
+    margin-top: 4em;
+}
+
+.display-container-5 a {
+    color: #0000ff; 
+    font-weight: bold;
+    margin: 2em 4em;
+}
+
+/* Image 5 */
+.display-container-6 {
+    border: green 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#d5b3ff;
+    margin: 4em 8em;
+    height: 30em;
+}
+
+.display-container-6 .left{
+    display: flex;
+    align-items: center; 
+    height: 100%; 
+    width: 50%; 
+    object-fit: cover;
+}
+
+.display-container-6 .left img{
+    width: 100%; 
+    margin-left: -75px; 
+}
+
+.display-container-6 .right{
+    display: flex;
+    align-items: center;
+    height: 100%; 
+    width: 50%; 
+}
+
+.display-container-6 .right img{
+    position: relative;
+    left: 87px;
+    height: 72%;  
+    width: 20em;
+    object-fit: cover;
+    
+
+
+}
+
+
+/* Footer */

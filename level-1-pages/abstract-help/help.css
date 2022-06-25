@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+    color: #fff;
+    
+}
+
+.navbar p {
+    display: inline-block;
+    margin: 12px 8px; 
+    font-size: small;
+}
+
+.navbar button {
+    display: inline-block;
+    font-size: small;
+    margin: 12px 6px; 
+    margin-left: 20%;
+    color: #fff; 
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+#request {
+    background-color: #313030af;
+    border: #fff 1px solid;
+
+}
+
+#sign-in {
+    background-color: #4C5FD5;
+}
+
+.searchbar {
+    background-color: #dadbf1;
+    text-align: center;
+    height: 12em; 
+}
+
+.searchbar-container { 
+    position: relative;
+    top: 30%; 
+
+}
+
+.searchbar h1 {
+    font-size: xx-large;
+    margin-bottom: 10px; 
+}
+
+.searchbar input{
+    font-size: small;
+    height: 2em;
+    width: 55%;
+
+}
+
+.body-info{
+    background-color: #fff;
+    height: 32rem;
+    margin-top: 10%; 
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.info-container {
+    display: flex; 
+    margin-bottom: 6%;
+}
+
+.info-container p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-container a {
+    color: #dadbf1;
+}
+
+.info-container div {
+    width: 45%;
+    min-width: 40%;
+}
+
+img {
+    width: 50px; 
+    height: 50px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #000000;
+    color: #fff;
+    bottom: 0; 
+    
+}
+
+footer h3 {
+    position: relative;
+    left: 18px; 
+    font-size: medium;
+    margin-top: 30px;
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+footer ul {
+    margin-top: 15px;
+    text-align: left;
+
+}
+
+footer li{
+    list-style: none;
+    font-size: small;
+    margin: 5px 0px;
+}

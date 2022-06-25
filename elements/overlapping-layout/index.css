@@ -1,0 +1,55 @@
+*{
+    margin: 0; 
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+
+
+.container {
+    border: red 1px solid;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0% 5%; 
+    
+}
+
+.left {
+    width: 65%; 
+    height: 500px;
+    background-image: url("building.jpg");
+    background-position: center;
+    object-fit: contain;
+    border-radius: 8px;
+    border: red 1px solid;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    height: 400px;
+    min-height: 400px;
+    width: 35%;
+    background-color: coral;
+    opacity: 0.95;
+    border-radius: 8px;
+    margin-left: -150px;
+    border: red 1px solid;
+}
+
+.right h1 {
+    border: red 1px solid;
+    color: lightcyan; 
+    margin: 5%; 
+    
+}
+
+.right p {
+    border: red 1px solid; 
+    color: lightcyan; 
+    margin: 5%; 
+    max-width: 70%;
+    
+}
